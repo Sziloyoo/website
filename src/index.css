@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+
+.nav-link {
+  @apply text-2xl font-medium hover:text-[#dbebfa] hover:-translate-y-0.5 transition-all duration-100;
+}
+
+.icon-link {
+  @apply size-6 hover:text-[#dbebfa] transition-colors duration-100;
+}
