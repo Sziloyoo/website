@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import './App.css';
+import { Navbar } from './components/Navbar';
 
 export const App: React.FC = () => {
   const [count, setCount] = useState(0);
   return (
     <>
+      <Navbar websiteName="WEBSITE NAME" imagePath="./avatar.jpg" />
       <div className="grid place-items-center h-screen">
         <h1 className="text-3xl font-bold">Yoo!</h1>
         <button
