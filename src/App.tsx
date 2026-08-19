@@ -13,6 +13,7 @@ function App() {
         >
           count: {count}
         </button>
+        <span className="text-2xl font-light text-gray-600">Testing...</span>
       </div>
     </>
   );
