@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
-function App() {
+export const App: React.FC = () => {
   const [count, setCount] = useState(0);
   return (
     <>
@@ -14,9 +14,12 @@ function App() {
           count: {count}
         </button>
         <span className="text-2xl font-light text-gray-600">Testing...</span>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem minus sequi temporibus
+          delectus quibusdam facilis odio, eveniet ex reiciendis, nisi placeat aperiam et nemo unde
+          modi numquam, assumenda ea sed.
+        </p>
       </div>
     </>
   );
-}
-
-export default App;
+};
